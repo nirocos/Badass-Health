@@ -1,3 +1,54 @@
 <resources>
     <string name="app_name">Badass Health</string>
+    <string name="calculate">Calculate</string>
+    <string name="default_weight">Weight\n 0 \nkg</string>
+    <string name="default_name">Your Name</string>
+    <string name="default_height">Height\n 0 \ncm</string>
+    <string name="default_yearsold">Age\n 0 \nyearsold</string>
+    <string name="open_drawer">Open Menu</string>
+    <string name="close_drawer">Close Menu</string>
+    <string name="btmenu_profile">Profile</string>
+    <string name="male">M</string>
+    <string name="female">F</string>
+    <string name="textWater">"Water Need to drink/day : "</string>
+    <string name="unitNeedwater">" ml."</string>
+    <string name="or">" or "</string>
+    <string name="unitGlasses">" glasses"</string>
+    <string name="inputBMR">"BMR: "</string>
+    <string name="inputBMI">"BMI: "</string>
+    <string name="unitAgr">years</string>
+    <string name="age">Age</string>
+    <string name="height">Height</string>
+    <string name="unitHeight">cm.</string>
+    <string name="unitWeight">Kg.</string>
+    <string name="Weight">Weight</string>
+    <string name="fullmale">male</string>
+    <string name="fullfemale">female</string>
+    <string name="defaultwater">Water Need</string>
+    <string name="defaultinputAge">Your Age</string>
+    <string name="defaultinputWeight">Your Weight</string>
+    <string name="defaultinputHeight">Your Height</string>
+    <string name="defaultinputUsername">Your Username</string>
+    <string name="errorNullfill">Please fill in all blanks.</string>
+    <string name="inputName">"Your name : "</string>
+    <string name="inputAge">"Age : "</string>
+    <string name="unitKg">Kg.</string>
+    <string name="unitCm">cm.</string>
+    <string name="unitYearold">years</string>
+    <string name="showWater">"Water Need per day: "</string>
+    <string name="helptitle">BMI หรือ Body Mass Index</string>
+    <string name="helpBmrTitle">BMR หรือ Basal Metabolic Rate</string>
+    <string name="criterion">ต่ำกว่า 17  = ผอม\n17-18.4    = สมส่วน \n18.5-24.9  = เริ่มจะอ้วน\n25-29.9    = อวบระยะสุดท้าย\nมากกว่า 30 = อ้วนแบบอันตราย</string>
+    <string name="descriptionBMI">เป็นดัชนีชี้วัด โดยเอาน้ำหนักของเราตั้ง หารด้วยค่าความสูง ได้เท่าไร ก็มาดูว่าอยู่ในเกณฑ์ไหน ผอมไป, น้ำหนักตัวกำลังดี หรือว่าน้ำหนักตัวเกินมาตราฐานเข้าข่ายอ้วนนั้นเอง</string>
+    <string name="descriptionBMR">ค่าพลังงานที่ร่างกายต้องการเพื่อที่จะทำให้กระบวนการพื้นฐานเพื่อการดำรงชีวิต</string>
+    <string name="statusOverfat">Too Fat.</string>
+    <string name="statusTin">Too Thin.</string>
+    <string name="statusTin1">Good Shape.</string>
+    <string name="statusStartfat">A bit fat.</string>
+    <string name="statusFat">Fat.</string>
+    <string name="about">About</string>
+    <string name="appnameVersion">BadassHealth V1.0</string>
+    <string name="unitCal">Kcal.</string>
+    <string name="contentDes_editprofile">Edit Profile</string>
+
 </resources>
