@@ -29,16 +29,25 @@
 
 
     </RelativeLayout>
+
 <LinearLayout
     android:layout_gravity = "start"
     android:background="#ddd"
     android:orientation="vertical"
     android:layout_width="@dimen/drawer_menu_width"
     android:layout_height="match_parent">
-        <ImageView
-            android:padding="@dimen/s20dp"
-            android:layout_width="wrap_content"
-            android:layout_height="150dp"
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <com.inthecheesefactory.thecheeselibrary.widget.AdjustableImageView
+            android:adjustViewBounds="true"
+            android:padding="@dimen/s10dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight="2"
             android:src="@drawable/logo"/>
         <TextView
             android:text="@string/helptitle"
@@ -53,9 +62,7 @@
             android:background="@color/white"
             android:gravity="start"
             android:textSize="@dimen/t14sp"
-            android:paddingTop="@dimen/s10dp"
-            android:paddingBottom="@dimen/s10dp"
-            android:paddingLeft="@dimen/s10dp"
+            android:padding="@dimen/s10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
             <TextView
@@ -63,9 +70,8 @@
             android:background="@color/white"
             android:gravity="start"
             android:textSize="@dimen/t14sp"
-            android:paddingTop="@dimen/s10dp"
-            android:paddingBottom="@dimen/s10dp"
-            android:paddingLeft="@dimen/s10dp"
+                android:padding="@dimen/s20dp"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
             <TextView
@@ -86,15 +92,17 @@
                 android:paddingLeft="@dimen/s10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Button
                 android:id="@+id/about"
                 android:textSize="@dimen/t20sp"
                 android:background="@drawable/selector_btn_default"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
                 android:text="@string/about"/>
 
-
+    </LinearLayout>
 </LinearLayout>
 
 </android.support.v4.widget.DrawerLayout>
