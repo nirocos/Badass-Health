@@ -50,5 +50,10 @@
     <string name="appnameVersion" translatable="false">BadassHealth V1.0</string>
     <string name="unitCal" translatable="false">Kcal.</string>
     <string name="contentDes_editprofile">Edit Profile</string>
+    <string name="north">Thanaphat Crirutpadathorn</string>
+    <string name="nok">Kanokporn Fongranon</string>
+    <string name="arun">Arun Suwannachai</string>
+    <string name="kendo">Thummarat Heamatugsin</string>
+    <string name="gave">Thanasak Kovitveeratham</string>
 
 </resources>

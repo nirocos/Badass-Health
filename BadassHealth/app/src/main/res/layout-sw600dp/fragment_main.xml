@@ -128,7 +128,7 @@
                         android:src="@drawable/bmi"/>
                     <TextView
                         android:id="@+id/bmiTV"
-                        android:textSize="40sp"
+                        android:textSize="35sp"
                         android:text="asdd"
                         android:paddingLeft="@dimen/s20dp"
                         android:gravity="center_vertical"
@@ -151,7 +151,7 @@
                         android:src="@drawable/bmr"/>
                     <TextView
                         android:id="@+id/bmrTV"
-                        android:textSize="40sp"
+                        android:textSize="35sp"
                         android:text="asdd"
                         android:paddingLeft="@dimen/s20dp"
                         android:gravity="center_vertical"
@@ -174,7 +174,7 @@
                         android:src="@drawable/bmr"/>
                     <TextView
                         android:id="@+id/wantwaterTV"
-                        android:textSize="40sp"
+                        android:textSize="35sp"
                         android:text="asdd"
                         android:paddingLeft="@dimen/s20dp"
                         android:gravity="center_vertical"
